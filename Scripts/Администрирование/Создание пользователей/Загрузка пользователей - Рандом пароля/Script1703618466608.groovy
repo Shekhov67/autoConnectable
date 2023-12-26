@@ -24,17 +24,17 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(findTestData('dataFile').getValue(1, 1))
 
-WebUI.setText(findTestObject('Object Repository/Page_Connectable/input_Enter_workspace'), findTestData('dataFile').getValue(
+WebUI.setText(findTestObject('Object Repository/Администрирование/input_Enter_workspace'), findTestData('dataFile').getValue(
         4, 1))
 
-WebUI.setText(findTestObject('Object Repository/Page_Connectable/input_Enter_email'), findTestData('dataFile').getValue(
+WebUI.setText(findTestObject('Object Repository/Администрирование/input_Enter_email'), findTestData('dataFile').getValue(
         3, 1))
 
-WebUI.setText(findTestObject('Page_Connectable/пароль'), findTestData('dataFile').getValue(3, 2))
+WebUI.setText(findTestObject('Администрирование/пароль'), findTestData('dataFile').getValue(3, 2))
 
-WebUI.click(findTestObject('Object Repository/Page_Connectable/войти'))
+WebUI.click(findTestObject('Object Repository/Администрирование/войти'))
 
-WebUI.click(findTestObject('Object Repository/Page_Connectable/Администратирование'))
+WebUI.click(findTestObject('Object Repository/Администрирование/Администратирование'))
 
 def user = NewUser()
 
@@ -42,10 +42,10 @@ WebUI.closeBrowser()
 
 static def NewUser() {
     for (int i = 0; i < 2; ++i) {
-        WebUI.click(findTestObject('Object Repository/Page_Connectable/кнопка новый пользователь'))
+        WebUI.click(findTestObject('Object Repository/Администрирование/кнопка новый пользователь'))
 
         'имя'
-        WebUI.setText(findTestObject('Object Repository/Page_Connectable/Имя'), findTestData('dataFile').getValue(2, 8 + 
+        WebUI.setText(findTestObject('Object Repository/Администрирование/Имя'), findTestData('dataFile').getValue(2, 8 + 
                 i))
 
         'отчество'
@@ -55,24 +55,24 @@ static def NewUser() {
 
         def setMiddleName = middleName.replaceAll('\\s+', '')
 
-        WebUI.setText(findTestObject('Page_Connectable/Отчество'), setMiddleName)
+        WebUI.setText(findTestObject('Администрирование/Отчество'), setMiddleName)
 
         'фамилия'
-        WebUI.setText(findTestObject('Object Repository/Page_Connectable/Фамилия'), findTestData('dataFile').getValue(1, 
+        WebUI.setText(findTestObject('Object Repository/Администрирование/Фамилия'), findTestData('dataFile').getValue(1, 
                 8 + i))
 
         'должность'
-        WebUI.setText(findTestObject('Object Repository/Page_Connectable/Должность'), findTestData('dataFile').getValue(
+        WebUI.setText(findTestObject('Object Repository/Администрирование/Должность'), findTestData('dataFile').getValue(
                 5, 8 + i))
 
         'мобильный телефон'
-        WebUI.setText(findTestObject('Page_Connectable/моб.телефон'), findTestData('dataFile').getValue(6, 8 + i))
+        WebUI.setText(findTestObject('Администрирование/моб.телефон'), findTestData('dataFile').getValue(6, 8 + i))
 
         'внутрений телефон\r\n'
-        WebUI.setText(findTestObject('Page_Connectable/Внутрений телефон'), findTestData('dataFile').getValue(7, 8 + i))
+        WebUI.setText(findTestObject('Администрирование/Внутрений телефон'), findTestData('dataFile').getValue(7, 8 + i))
 
         'майл'
-        WebUI.setText(findTestObject('Object Repository/Page_Connectable/почта'), findTestData('dataFile').getValue(4, 8 + 
+        WebUI.setText(findTestObject('Object Repository/Администрирование/почта'), findTestData('dataFile').getValue(4, 8 + 
                 i))
 
 		final int[] genPassword = new Random().ints(0,9).distinct().limit(6).toArray();
@@ -85,15 +85,15 @@ static def NewUser() {
 		
 		println(pass)
 		
-        WebUI.setText(findTestObject('Object Repository/Page_Connectable/подтверждение пароля'), pass)
+        WebUI.setText(findTestObject('Object Repository/Администрирование/подтверждение пароля'), pass)
 
-        WebUI.setText(findTestObject('Object Repository/Page_Connectable/пароль'), pass)
+        WebUI.setText(findTestObject('Object Repository/Администрирование/пароль'), pass)
 
-        WebUI.click(findTestObject('Page_Connectable/кнопка создать'))
+        WebUI.click(findTestObject('Администрирование/кнопка создать'))
 
-        WebUI.click(findTestObject('Page_Connectable/close'))
+        WebUI.click(findTestObject('Администрирование/close'))
 
-        WebUI.scrollToElement(findTestObject('Page_Connectable/скролл'), 30)
+        WebUI.scrollToElement(findTestObject('Администрирование/скролл'), 30)
     }
 }
 
