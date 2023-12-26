@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Загрузка пользователей - Пароль клиента</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c7cb6f6b-8c53-4ef5-9371-8ecb464ee56c</testCaseGuid>
+</TestCaseEntity>

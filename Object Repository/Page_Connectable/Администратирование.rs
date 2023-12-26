@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Администратирование</name>
+   <tag></tag>
+   <elementGuidId>51f8f6a3-ed9e-41b8-8a4c-0959cd7f6580</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Администрирование']/parent::*</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>3ef7b976-2e8b-4c76-9471-b234d3091867</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Администрирование </value>
+      <webElementGuid>967a09c8-9b32-44d6-af28-e5ce305eb10c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-container&quot;)/div[@class=&quot;col sidebar&quot;]/div[@class=&quot;menu-item f-align-center pointer&quot;]/span[1]</value>
+      <webElementGuid>5ef94f61-46f8-47c1-91f8-0b59f9bbb23c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page-container']/div/div[15]/span</value>
+      <webElementGuid>986de01e-bb51-4340-a890-116deca32ad4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Предложить идею'])[1]/following::span[1]</value>
+      <webElementGuid>3f32aa45-007a-4e65-b642-267f8a4e3378</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Не молчи'])[1]/following::span[2]</value>
+      <webElementGuid>f278b1e3-3297-46d4-9fee-09fe0be6f2d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test1'])[1]/preceding::span[1]</value>
+      <webElementGuid>3000df26-cfb6-4ba2-8a33-bb8287352ae7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Сегодня встреч нет'])[1]/preceding::span[1]</value>
+      <webElementGuid>70dfeded-9631-4f9d-8eb4-e58d10a0d553</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Администрирование']/parent::*</value>
+      <webElementGuid>e0a25c5e-c5d8-4b58-b4c1-813777ddf044</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[15]/span</value>
+      <webElementGuid>0af3ac7e-f663-47ed-b1b1-ea4a4f2754ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' Администрирование ' or . = ' Администрирование ')]</value>
+      <webElementGuid>6383bb77-8737-46c1-92ce-5a4efd9813d6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

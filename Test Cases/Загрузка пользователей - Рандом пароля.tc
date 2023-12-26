@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Загрузка пользователей - Рандом пароля</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f19cc1d3-70ad-4c2e-b131-d69602997115</testCaseGuid>
+</TestCaseEntity>
