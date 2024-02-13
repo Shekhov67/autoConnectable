@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Поле ввода для поста</name>
+   <tag></tag>
+   <elementGuidId>cd2dfcdd-068b-4705-907a-6dc55466dd8e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page']/div/div/div/div[2]/textarea</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>textarea</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>textarea</value>
+      <webElementGuid>c2be2d09-6c52-48f7-b84b-d55a8e13b8ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rows</name>
+      <type>Main</type>
+      <value>3</value>
+      <webElementGuid>acdeade5-8da3-4983-a5b7-d00ee8d13731</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Напишите текст сообщения. Используйте @, чтобы кого-то упомянуть</value>
+      <webElementGuid>2a3b5f1e-3c6d-4c28-90f8-d1a47f6dbfea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page&quot;)/div[@class=&quot;container d-flex gap2 mt6&quot;]/div[1]/div[@class=&quot;post-creation col gap4 p4 mb6&quot;]/div[@class=&quot;ant-mentions ant-mentions-focused&quot;]/textarea[1]</value>
+      <webElementGuid>b695a045-dc06-47c8-88fc-653d51ca96c3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page']/div/div/div/div[2]/textarea</value>
+      <webElementGuid>b54cebba-fdcd-4164-b3f1-8a62ca62458f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//textarea</value>
+      <webElementGuid>65741851-6570-449c-8387-b265936de987</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//textarea[@placeholder = 'Напишите текст сообщения. Используйте @, чтобы кого-то упомянуть']</value>
+      <webElementGuid>798964c1-af72-4f2f-bb80-4787c56d6daf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
